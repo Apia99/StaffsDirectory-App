@@ -7,12 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		840B200C28F96D76005F8BDE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840B200B28F96D76005F8BDE /* AppDelegate.swift */; };
-		840B200E28F96D76005F8BDE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840B200D28F96D76005F8BDE /* SceneDelegate.swift */; };
-		840B201028F96D76005F8BDE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840B200F28F96D76005F8BDE /* ViewController.swift */; };
-		840B201328F96D76005F8BDE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 840B201128F96D76005F8BDE /* Main.storyboard */; };
-		840B201528F96D78005F8BDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 840B201428F96D78005F8BDE /* Assets.xcassets */; };
-		840B201828F96D78005F8BDE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 840B201628F96D78005F8BDE /* LaunchScreen.storyboard */; };
 		840B202D28F96D78005F8BDE /* StaffsDirectory_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840B202C28F96D78005F8BDE /* StaffsDirectory_AppUITests.swift */; };
 		840B202F28F96D78005F8BDE /* StaffsDirectory_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840B202E28F96D78005F8BDE /* StaffsDirectory_AppUITestsLaunchTests.swift */; };
 		840B203C28F97248005F8BDE /* WebService in Resources */ = {isa = PBXBuildFile; fileRef = 840B203B28F97248005F8BDE /* WebService */; };
@@ -21,6 +15,7 @@
 		840B204228F975FD005F8BDE /* Tests in Resources */ = {isa = PBXBuildFile; fileRef = 840B204128F975FD005F8BDE /* Tests */; };
 		840B204628F976DD005F8BDE /* People in Resources */ = {isa = PBXBuildFile; fileRef = 840B204528F976DD005F8BDE /* People */; };
 		840B204828F977D0005F8BDE /* Rooms in Resources */ = {isa = PBXBuildFile; fileRef = 840B204728F977D0005F8BDE /* Rooms */; };
+		840B204A28F978C1005F8BDE /* System in Resources */ = {isa = PBXBuildFile; fileRef = 840B204928F978C1005F8BDE /* System */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,12 +37,6 @@
 
 /* Begin PBXFileReference section */
 		840B200828F96D76005F8BDE /* StaffsDirectory App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "StaffsDirectory App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		840B200B28F96D76005F8BDE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		840B200D28F96D76005F8BDE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		840B200F28F96D76005F8BDE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		840B201228F96D76005F8BDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		840B201428F96D78005F8BDE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		840B201728F96D78005F8BDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		840B201928F96D78005F8BDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		840B201E28F96D78005F8BDE /* StaffsDirectory AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "StaffsDirectory AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		840B202828F96D78005F8BDE /* StaffsDirectory AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "StaffsDirectory AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -59,6 +48,7 @@
 		840B204128F975FD005F8BDE /* Tests */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Tests; sourceTree = "<group>"; };
 		840B204528F976DD005F8BDE /* People */ = {isa = PBXFileReference; lastKnownFileType = folder; path = People; sourceTree = "<group>"; };
 		840B204728F977D0005F8BDE /* Rooms */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Rooms; sourceTree = "<group>"; };
+		840B204928F978C1005F8BDE /* System */ = {isa = PBXFileReference; lastKnownFileType = folder; path = System; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,16 +99,11 @@
 		840B200A28F96D76005F8BDE /* StaffsDirectory App */ = {
 			isa = PBXGroup;
 			children = (
+				840B204928F978C1005F8BDE /* System */,
 				840B204728F977D0005F8BDE /* Rooms */,
 				840B204528F976DD005F8BDE /* People */,
 				840B201928F96D78005F8BDE /* Info.plist */,
 				840B203B28F97248005F8BDE /* WebService */,
-				840B200B28F96D76005F8BDE /* AppDelegate.swift */,
-				840B200D28F96D76005F8BDE /* SceneDelegate.swift */,
-				840B200F28F96D76005F8BDE /* ViewController.swift */,
-				840B201128F96D76005F8BDE /* Main.storyboard */,
-				840B201428F96D78005F8BDE /* Assets.xcassets */,
-				840B201628F96D78005F8BDE /* LaunchScreen.storyboard */,
 			);
 			path = "StaffsDirectory App";
 			sourceTree = "<group>";
@@ -247,11 +232,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				840B204628F976DD005F8BDE /* People in Resources */,
-				840B201828F96D78005F8BDE /* LaunchScreen.storyboard in Resources */,
 				840B203C28F97248005F8BDE /* WebService in Resources */,
 				840B204828F977D0005F8BDE /* Rooms in Resources */,
-				840B201528F96D78005F8BDE /* Assets.xcassets in Resources */,
-				840B201328F96D76005F8BDE /* Main.storyboard in Resources */,
+				840B204A28F978C1005F8BDE /* System in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,9 +262,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				840B201028F96D76005F8BDE /* ViewController.swift in Sources */,
-				840B200C28F96D76005F8BDE /* AppDelegate.swift in Sources */,
-				840B200E28F96D76005F8BDE /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,25 +295,6 @@
 			targetProxy = 840B202928F96D78005F8BDE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		840B201128F96D76005F8BDE /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				840B201228F96D76005F8BDE /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		840B201628F96D78005F8BDE /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				840B201728F96D78005F8BDE /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		840B203028F96D78005F8BDE /* Debug */ = {
@@ -509,7 +470,6 @@
 		840B203628F96D78005F8BDE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -529,7 +489,6 @@
 		840B203728F96D78005F8BDE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -549,7 +508,6 @@
 		840B203928F96D78005F8BDE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = A7Y8G3FXMU;
@@ -567,7 +525,6 @@
 		840B203A28F96D78005F8BDE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = A7Y8G3FXMU;
