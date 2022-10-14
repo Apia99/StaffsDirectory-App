@@ -16,6 +16,7 @@
 		840B202328F96D78005F8BDE /* StaffsDirectory_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840B202228F96D78005F8BDE /* StaffsDirectory_AppTests.swift */; };
 		840B202D28F96D78005F8BDE /* StaffsDirectory_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840B202C28F96D78005F8BDE /* StaffsDirectory_AppUITests.swift */; };
 		840B202F28F96D78005F8BDE /* StaffsDirectory_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840B202E28F96D78005F8BDE /* StaffsDirectory_AppUITestsLaunchTests.swift */; };
+		840B203C28F97248005F8BDE /* WebService in Resources */ = {isa = PBXBuildFile; fileRef = 840B203B28F97248005F8BDE /* WebService */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		840B202828F96D78005F8BDE /* StaffsDirectory AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "StaffsDirectory AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		840B202C28F96D78005F8BDE /* StaffsDirectory_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaffsDirectory_AppUITests.swift; sourceTree = "<group>"; };
 		840B202E28F96D78005F8BDE /* StaffsDirectory_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaffsDirectory_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		840B203B28F97248005F8BDE /* WebService */ = {isa = PBXFileReference; lastKnownFileType = folder; path = WebService; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		840B200A28F96D76005F8BDE /* StaffsDirectory App */ = {
 			isa = PBXGroup;
 			children = (
+				840B203B28F97248005F8BDE /* WebService */,
 				840B200B28F96D76005F8BDE /* AppDelegate.swift */,
 				840B200D28F96D76005F8BDE /* SceneDelegate.swift */,
 				840B200F28F96D76005F8BDE /* ViewController.swift */,
@@ -232,6 +235,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				840B201828F96D78005F8BDE /* LaunchScreen.storyboard in Resources */,
+				840B203C28F97248005F8BDE /* WebService in Resources */,
 				840B201528F96D78005F8BDE /* Assets.xcassets in Resources */,
 				840B201328F96D76005F8BDE /* Main.storyboard in Resources */,
 			);
