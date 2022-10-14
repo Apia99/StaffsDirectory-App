@@ -16,6 +16,7 @@
 		840B204628F976DD005F8BDE /* People in Resources */ = {isa = PBXBuildFile; fileRef = 840B204528F976DD005F8BDE /* People */; };
 		840B204828F977D0005F8BDE /* Rooms in Resources */ = {isa = PBXBuildFile; fileRef = 840B204728F977D0005F8BDE /* Rooms */; };
 		840B204A28F978C1005F8BDE /* System in Resources */ = {isa = PBXBuildFile; fileRef = 840B204928F978C1005F8BDE /* System */; };
+		840B204C28F979D6005F8BDE /* Coordinator in Resources */ = {isa = PBXBuildFile; fileRef = 840B204B28F979D6005F8BDE /* Coordinator */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		840B204528F976DD005F8BDE /* People */ = {isa = PBXFileReference; lastKnownFileType = folder; path = People; sourceTree = "<group>"; };
 		840B204728F977D0005F8BDE /* Rooms */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Rooms; sourceTree = "<group>"; };
 		840B204928F978C1005F8BDE /* System */ = {isa = PBXFileReference; lastKnownFileType = folder; path = System; sourceTree = "<group>"; };
+		840B204B28F979D6005F8BDE /* Coordinator */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Coordinator; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		840B200A28F96D76005F8BDE /* StaffsDirectory App */ = {
 			isa = PBXGroup;
 			children = (
+				840B204B28F979D6005F8BDE /* Coordinator */,
 				840B204928F978C1005F8BDE /* System */,
 				840B204728F977D0005F8BDE /* Rooms */,
 				840B204528F976DD005F8BDE /* People */,
@@ -235,6 +238,7 @@
 				840B203C28F97248005F8BDE /* WebService in Resources */,
 				840B204828F977D0005F8BDE /* Rooms in Resources */,
 				840B204A28F978C1005F8BDE /* System in Resources */,
+				840B204C28F979D6005F8BDE /* Coordinator in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
