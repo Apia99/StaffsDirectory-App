@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		840B202D28F96D78005F8BDE /* StaffsDirectory_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840B202C28F96D78005F8BDE /* StaffsDirectory_AppUITests.swift */; };
-		840B202F28F96D78005F8BDE /* StaffsDirectory_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840B202E28F96D78005F8BDE /* StaffsDirectory_AppUITestsLaunchTests.swift */; };
 		840B203C28F97248005F8BDE /* WebService in Resources */ = {isa = PBXBuildFile; fileRef = 840B203B28F97248005F8BDE /* WebService */; };
 		840B203F28F97503005F8BDE /* Mocks in Resources */ = {isa = PBXBuildFile; fileRef = 840B203D28F97503005F8BDE /* Mocks */; };
 		840B204028F97503005F8BDE /* Json in Resources */ = {isa = PBXBuildFile; fileRef = 840B203E28F97503005F8BDE /* Json */; };
@@ -17,6 +15,8 @@
 		840B204828F977D0005F8BDE /* Rooms in Resources */ = {isa = PBXBuildFile; fileRef = 840B204728F977D0005F8BDE /* Rooms */; };
 		840B204A28F978C1005F8BDE /* System in Resources */ = {isa = PBXBuildFile; fileRef = 840B204928F978C1005F8BDE /* System */; };
 		840B204C28F979D6005F8BDE /* Coordinator in Resources */ = {isa = PBXBuildFile; fileRef = 840B204B28F979D6005F8BDE /* Coordinator */; };
+		840B204F28F97AA2005F8BDE /* StaffsDirectoryUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840B204D28F97AA2005F8BDE /* StaffsDirectoryUITestsLaunchTests.swift */; };
+		840B205028F97AA2005F8BDE /* StaffsDirectoryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840B204E28F97AA2005F8BDE /* StaffsDirectoryUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,8 +41,6 @@
 		840B201928F96D78005F8BDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		840B201E28F96D78005F8BDE /* StaffsDirectory AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "StaffsDirectory AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		840B202828F96D78005F8BDE /* StaffsDirectory AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "StaffsDirectory AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		840B202C28F96D78005F8BDE /* StaffsDirectory_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaffsDirectory_AppUITests.swift; sourceTree = "<group>"; };
-		840B202E28F96D78005F8BDE /* StaffsDirectory_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaffsDirectory_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		840B203B28F97248005F8BDE /* WebService */ = {isa = PBXFileReference; lastKnownFileType = folder; path = WebService; sourceTree = "<group>"; };
 		840B203D28F97503005F8BDE /* Mocks */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Mocks; sourceTree = "<group>"; };
 		840B203E28F97503005F8BDE /* Json */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Json; sourceTree = "<group>"; };
@@ -51,6 +49,8 @@
 		840B204728F977D0005F8BDE /* Rooms */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Rooms; sourceTree = "<group>"; };
 		840B204928F978C1005F8BDE /* System */ = {isa = PBXFileReference; lastKnownFileType = folder; path = System; sourceTree = "<group>"; };
 		840B204B28F979D6005F8BDE /* Coordinator */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Coordinator; sourceTree = "<group>"; };
+		840B204D28F97AA2005F8BDE /* StaffsDirectoryUITestsLaunchTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StaffsDirectoryUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		840B204E28F97AA2005F8BDE /* StaffsDirectoryUITests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StaffsDirectoryUITests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,8 +124,8 @@
 		840B202B28F96D78005F8BDE /* StaffsDirectory AppUITests */ = {
 			isa = PBXGroup;
 			children = (
-				840B202C28F96D78005F8BDE /* StaffsDirectory_AppUITests.swift */,
-				840B202E28F96D78005F8BDE /* StaffsDirectory_AppUITestsLaunchTests.swift */,
+				840B204E28F97AA2005F8BDE /* StaffsDirectoryUITests.swift */,
+				840B204D28F97AA2005F8BDE /* StaffsDirectoryUITestsLaunchTests.swift */,
 			);
 			path = "StaffsDirectory AppUITests";
 			sourceTree = "<group>";
@@ -280,8 +280,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				840B202D28F96D78005F8BDE /* StaffsDirectory_AppUITests.swift in Sources */,
-				840B202F28F96D78005F8BDE /* StaffsDirectory_AppUITestsLaunchTests.swift in Sources */,
+				840B205028F97AA2005F8BDE /* StaffsDirectoryUITests.swift in Sources */,
+				840B204F28F97AA2005F8BDE /* StaffsDirectoryUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
