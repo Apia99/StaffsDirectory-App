@@ -7,7 +7,7 @@
 
 import XCTest
 import UIKit
-@testable import StaffsDirectory
+@testable import StaffsDirectory_App
 
 class ImageCacheTests: XCTestCase {
     var imageCacher: ImageCacher?

@@ -6,7 +6,7 @@
 //
 
 import XCTest
-@testable import StaffsDirectory
+@testable import StaffsDirectory_App
 
 class PeopleViewModelTests: XCTestCase {
     

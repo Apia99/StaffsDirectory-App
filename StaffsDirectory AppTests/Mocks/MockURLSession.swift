@@ -6,7 +6,7 @@
 //
 
 import Foundation
-@testable import StaffsDirectory
+@testable import StaffsDirectory_App
 
 class MockURLSession: URLSession {
     
