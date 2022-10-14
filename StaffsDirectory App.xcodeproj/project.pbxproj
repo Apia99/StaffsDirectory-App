@@ -20,6 +20,7 @@
 		840B203F28F97503005F8BDE /* Mocks in Resources */ = {isa = PBXBuildFile; fileRef = 840B203D28F97503005F8BDE /* Mocks */; };
 		840B204028F97503005F8BDE /* Json in Resources */ = {isa = PBXBuildFile; fileRef = 840B203E28F97503005F8BDE /* Json */; };
 		840B204228F975FD005F8BDE /* Tests in Resources */ = {isa = PBXBuildFile; fileRef = 840B204128F975FD005F8BDE /* Tests */; };
+		840B204628F976DD005F8BDE /* People in Resources */ = {isa = PBXBuildFile; fileRef = 840B204528F976DD005F8BDE /* People */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		840B203D28F97503005F8BDE /* Mocks */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Mocks; sourceTree = "<group>"; };
 		840B203E28F97503005F8BDE /* Json */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Json; sourceTree = "<group>"; };
 		840B204128F975FD005F8BDE /* Tests */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Tests; sourceTree = "<group>"; };
+		840B204528F976DD005F8BDE /* People */ = {isa = PBXFileReference; lastKnownFileType = folder; path = People; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 		840B200A28F96D76005F8BDE /* StaffsDirectory App */ = {
 			isa = PBXGroup;
 			children = (
+				840B204528F976DD005F8BDE /* People */,
 				840B201928F96D78005F8BDE /* Info.plist */,
 				840B203B28F97248005F8BDE /* WebService */,
 				840B200B28F96D76005F8BDE /* AppDelegate.swift */,
@@ -243,6 +246,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				840B204628F976DD005F8BDE /* People in Resources */,
 				840B201828F96D78005F8BDE /* LaunchScreen.storyboard in Resources */,
 				840B203C28F97248005F8BDE /* WebService in Resources */,
 				840B201528F96D78005F8BDE /* Assets.xcassets in Resources */,
