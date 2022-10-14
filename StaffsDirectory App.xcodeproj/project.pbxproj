@@ -17,6 +17,8 @@
 		840B202D28F96D78005F8BDE /* StaffsDirectory_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840B202C28F96D78005F8BDE /* StaffsDirectory_AppUITests.swift */; };
 		840B202F28F96D78005F8BDE /* StaffsDirectory_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840B202E28F96D78005F8BDE /* StaffsDirectory_AppUITestsLaunchTests.swift */; };
 		840B203C28F97248005F8BDE /* WebService in Resources */ = {isa = PBXBuildFile; fileRef = 840B203B28F97248005F8BDE /* WebService */; };
+		840B203F28F97503005F8BDE /* Mocks in Resources */ = {isa = PBXBuildFile; fileRef = 840B203D28F97503005F8BDE /* Mocks */; };
+		840B204028F97503005F8BDE /* Json in Resources */ = {isa = PBXBuildFile; fileRef = 840B203E28F97503005F8BDE /* Json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		840B202C28F96D78005F8BDE /* StaffsDirectory_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaffsDirectory_AppUITests.swift; sourceTree = "<group>"; };
 		840B202E28F96D78005F8BDE /* StaffsDirectory_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaffsDirectory_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		840B203B28F97248005F8BDE /* WebService */ = {isa = PBXFileReference; lastKnownFileType = folder; path = WebService; sourceTree = "<group>"; };
+		840B203D28F97503005F8BDE /* Mocks */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Mocks; sourceTree = "<group>"; };
+		840B203E28F97503005F8BDE /* Json */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,7 @@
 		840B200A28F96D76005F8BDE /* StaffsDirectory App */ = {
 			isa = PBXGroup;
 			children = (
+				840B201928F96D78005F8BDE /* Info.plist */,
 				840B203B28F97248005F8BDE /* WebService */,
 				840B200B28F96D76005F8BDE /* AppDelegate.swift */,
 				840B200D28F96D76005F8BDE /* SceneDelegate.swift */,
@@ -108,7 +113,6 @@
 				840B201128F96D76005F8BDE /* Main.storyboard */,
 				840B201428F96D78005F8BDE /* Assets.xcassets */,
 				840B201628F96D78005F8BDE /* LaunchScreen.storyboard */,
-				840B201928F96D78005F8BDE /* Info.plist */,
 			);
 			path = "StaffsDirectory App";
 			sourceTree = "<group>";
@@ -116,6 +120,8 @@
 		840B202128F96D78005F8BDE /* StaffsDirectory AppTests */ = {
 			isa = PBXGroup;
 			children = (
+				840B203E28F97503005F8BDE /* Json */,
+				840B203D28F97503005F8BDE /* Mocks */,
 				840B202228F96D78005F8BDE /* StaffsDirectory_AppTests.swift */,
 			);
 			path = "StaffsDirectory AppTests";
@@ -245,6 +251,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				840B204028F97503005F8BDE /* Json in Resources */,
+				840B203F28F97503005F8BDE /* Mocks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
